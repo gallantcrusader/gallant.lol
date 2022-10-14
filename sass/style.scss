@@ -1,0 +1,25 @@
+//Variables
+.container {
+    margin: auto;
+    width: 75%;
+    padding: 10%;
+}
+
+body {
+    //background: #0d181c;
+    background-image: url('siteBackground.png');
+    color: #d9d7d6;
+}
+
+hr {background-color: #d9d7d6;}
+
+li {
+  list-style-type: "\1F7D5";
+  color: #78B892;
+  //font-size: 17px;
+}
+
+img {
+  height: 20%;
+  width: 20%;
+}
