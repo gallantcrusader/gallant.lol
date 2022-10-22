@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
 //Variables
 .container {
     margin: auto;
@@ -9,9 +10,21 @@ body {
     //background: #0d181c;
     background-image: url('siteBackground.png');
     color: #d9d7d6;
+    font-family: 'Cascadia Code', sans-serif;
 }
 
-hr {background-color: #d9d7d6;}
+//outline of main area
+body {
+  outline-style: solid;
+  outline-width: 2px;
+  outline-color: #8CD7AA;
+  outline-offset: -100px;
+}
+
+hr {
+  border-top: 2px solid #DF5B61;
+  border-radius: 2px;
+}
 
 li {
   list-style-type: "\1F7D5";
@@ -22,4 +35,25 @@ li {
 img {
   height: 20%;
   width: 20%;
+}
+div {width: 50%;}
+
+ /* unvisited link */
+a:link {
+  color: #E9967E;
+}
+
+/* visited link */
+a:visited {
+  color: #BC83E3;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
 }
