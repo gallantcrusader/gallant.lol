@@ -13,16 +13,13 @@ body {
     color: #d9d7d6;
     font-family: 'Cascadia Code', sans-serif;
     font-size: 100%;
-}
-
-//outline of main area
-body {
-  outline-style: solid;
-  outline-width: 2px;
-  outline-color: #8CD7AA;
-  outline-offset: -50px;
-  padding: 0 0.7em 0.5em;
-  //padding: 10%;
+    //outline stuff
+    outline-style: solid;
+    outline-width: 2px;
+    outline-color: #8CD7AA;
+    outline-offset: -50px;
+    padding: 0.5em 0.7em 0.5em;
+    //padding: 10%;
 }
 
 hr {
@@ -69,6 +66,7 @@ a:active {
 
 .title {
   font-size: 170%;
+  text-align: left;
   //padding: 1px 0.5em 1px;  
 }
 
