@@ -17,8 +17,11 @@ body {
     outline-style: solid;
     outline-width: 2px;
     outline-color: #8CD7AA;
-    outline-offset: -50px;
+    outline-offset: -40px;
+    //padding
     padding: 0.5em 0.7em 0.5em;
+    
+
     //padding: 10%;
 }
 
@@ -70,4 +73,8 @@ a:active {
   //padding: 1px 0.5em 1px;  
 }
 
-
+html, body {
+  height: auto;
+  margin: auto;
+  padding: 5% 0;
+}
