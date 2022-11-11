@@ -7,21 +7,41 @@
 <hr>
 Hey I'm Gallant, I work with mostly Rust.
 
-<hr>
+<div style="display: flex;">
+  <div class="side">
+    <hr>
 
-<h4>Stuff:</h4>
-<ul>
-  <li><a href="https://git.karx.xyz/gallant/">My Git</a></li>
-  <li><a href="mailto:gallantcrusader@proton.me">Reach Out</a></li>
-</ul>
+    <h4>Stuff:</h4>
+    <ul>
+      <li><a href="https://git.karx.xyz/gallant/">My Git</a></li>
+      <li><a href="mailto:gallantcrusader@proton.me">Reach Out</a></li>
+    </ul>
 
-<h4>Pals:</h4>
-<ul>
-  <li><a href="https://karx.xyz/">karx</a></li>
-  <li><a href="https://lemonsh.moe">lemon</a></li>
-  <li><a href="https://famfo.xyz">famfo</a></li>
-  <li><a href="https://missingpiece.dev/">missing</a></li>
-  <li><a href="https://bonzi.link/">God</a></li>
-  <!-- <li><a href=""></a></li> -->
-</ul>
+    <h4>Pals:</h4>
+
+      <ul>
+        <li><a href="https://karx.xyz/">karx</a></li>
+        <li><a href="https://lemonsh.moe">lemon</a></li>
+        <li><a href="https://famfo.xyz">famfo</a></li>
+        <li><a href="https://missingpiece.dev/">missing</a></li>
+        <li><a href="https://bonzi.link/">God</a></li>
+        <!-- <li><a href=""></a></li> -->
+      </ul>
+  </div>
+
+
+  <div name="jared" class="side">
+    <h1 id="donald" class="donald"></h1>
+    <script type="module">
+      import init, { send_phase } from "./moon_phase_wasm.js";
+      init().then(() => {
+       //greet("A");
+       const phase = send_phase();
+       const bro = document.getElementById("donald");
+       bro.innerHTML = phase;
+      
+      })
+    </script>
+  </div>
+</div>
 {% endblock content %}
