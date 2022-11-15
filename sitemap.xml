@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.gallant.lol/</loc>
+    </url>
+    <url>
+        <loc>https://www.gallant.lol/blog/</loc>
+    </url>
+    <url>
+        <loc>https://www.gallant.lol/blog/the-benefits-of-rust/</loc>
+        <lastmod>2022-05-06</lastmod>
+    </url>
+    <url>
+        <loc>https://www.gallant.lol/projects/</loc>
+    </url>
+    <url>
+        <loc>https://www.gallant.lol/projects/cat-box/</loc>
+        <lastmod>2022-10-13</lastmod>
+    </url>
+    <url>
+        <loc>https://www.gallant.lol/projects/winning/</loc>
+        <lastmod>2022-10-13</lastmod>
+    </url>
+    <url>
+        <loc>https://www.gallant.lol/projects/yai/</loc>
+        <lastmod>2022-10-13</lastmod>
+    </url>
+</urlset>

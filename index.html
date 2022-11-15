@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallant</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body> 
+  <section class="section">
+    <div class="container">
+      
+      
+<h1 class="title">
+  Welcome To My Quiet Little Suburban Home
+</h1>
+<hr>
+Hey I'm Gallant, I work with mostly Rust.
+
+<div style="display: flex;">
+  <div class="side">
+    <hr>
+
+    <h4>Stuff:</h4>
+    <ul>
+      <li><a href="https://git.karx.xyz/gallant/">My Git</a></li>
+      <li><a href="mailto:gallantcrusader@proton.me">Reach Out</a></li>
+    </ul>
+
+    <h4>Pals:</h4>
+
+      <ul>
+        <li><a href="https://karx.xyz/">karx</a></li>
+        <li><a href="https://lemonsh.moe">lemon</a></li>
+        <li><a href="https://famfo.xyz">famfo</a></li>
+        <li><a href="https://missingpiece.dev/">missing</a></li>
+        <li><a href="https://bonzi.link/">God</a></li>
+        <!-- <li><a href=""></a></li> -->
+      </ul>
+  </div>
+
+
+  <div name="jared" class="side">
+    <h1 id="donald" class="donald"></h1>
+    <script type="module">
+      import init, { send_phase } from "./moon_phase_wasm.js";
+      init().then(() => {
+       //greet("A");
+       const phase = send_phase();
+       const bro = document.getElementById("donald");
+       bro.innerHTML = phase[0];
+       bro.setAttribute("title",phase[1]);
+      
+      })
+    </script>
+  </div>
+</div>
+
+      
+      <div style="text-align: center;">
+        <hr>
+        <a href="/">home</a> ⫘  <a href="/projects/">projects</a> ⫘ <a href="/blog/">blog</a>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
