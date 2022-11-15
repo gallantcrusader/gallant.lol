@@ -38,7 +38,8 @@ Hey I'm Gallant, I work with mostly Rust.
        //greet("A");
        const phase = send_phase();
        const bro = document.getElementById("donald");
-       bro.innerHTML = phase;
+       bro.innerHTML = phase[0];
+       bro.setAttribute("title",phase[1]);
       
       })
     </script>

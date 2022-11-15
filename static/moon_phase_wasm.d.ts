@@ -5,19 +5,18 @@
 */
 export function greet(name: string): void;
 /**
-* @returns {string}
+* @returns {Array<any>}
 */
-export function send_phase(): string;
+export function send_phase(): Array<any>;
 
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
   readonly memory: WebAssembly.Memory;
   readonly greet: (a: number, b: number) => void;
-  readonly send_phase: (a: number) => void;
+  readonly send_phase: () => number;
   readonly __wbindgen_malloc: (a: number) => number;
   readonly __wbindgen_realloc: (a: number, b: number, c: number) => number;
-  readonly __wbindgen_add_to_stack_pointer: (a: number) => number;
   readonly __wbindgen_free: (a: number, b: number) => void;
 }
 
